@@ -4,7 +4,7 @@ import os, time, socket
 app = Flask(__name__)
 
 items = [
-    {"id": 1, "name": "Build pipeline on GIT", "done": True},
+    {"id": 1, "name": "Build pipeline", "done": True},
     {"id": 2, "name": "Run tests by default deployment", "done": False},
     {"id": 3, "name": "Deploy to ECS deployment", "done": False},
 ]
