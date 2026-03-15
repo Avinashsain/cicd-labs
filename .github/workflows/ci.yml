@@ -91,4 +91,4 @@ jobs:
       - name: Notify on failure
         #if: failure()
         run: |
-          echo "print webhook URL: \`${{ secrets.SLACK_WEBHOOK_URL }} \`" >> $GITHUB_STEP_SUMMARY
+          echo "print webhook URL: \`${{ vars.SLACK_WEBHOOK_URL }} \`" >> $GITHUB_STEP_SUMMARY
